@@ -1,0 +1,60 @@
+body * {
+    /*border: 2px solid blue;*/
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    height: 5200px;
+}
+
+header {
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+header > div {
+    position: relative;
+    width: 20%;
+    height: 40%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.menu {
+    margin: 10px auto;
+    text-align: center;
+}
+
+header ul {
+    position: relative;
+    margin: 2px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    margin: 10px 0;
+    float: left;
+}
+
+.logo-container h3 {
+    position: relative;
+    text-align: right;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+.cred-container {
+    float: right;
+    display: flex;
+}
+
+.cred-container > button {
+    margin: 5px;
+}
