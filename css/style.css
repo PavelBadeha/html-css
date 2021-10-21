@@ -8,8 +8,9 @@ li {
 
 body {
     height: 5200px;
+    display: flex;
 }
-
+/*HEADER*/
 header {
     position: fixed;
     height: 75px;
@@ -18,7 +19,7 @@ header {
     justify-content: space-between;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
-header > div {
+header > div, header > nav {
     position: relative;
     width: 20%;
     height: 40%;
@@ -31,10 +32,10 @@ header > div {
     text-align: center;
 }
 
-header ul {
+nav ul {
     position: relative;
     margin: 2px auto;
-    display: flex;
+    display: flex;  
     justify-content: space-between;
 }
 
@@ -57,4 +58,40 @@ header ul {
 
 .cred-container > button {
     margin: 5px;
+}
+
+/*MAIN*/
+
+.main {
+    position: relative;
+    width: 80%;
+    height: 500px;
+    margin: 108px auto;
+    display: flex;
+}
+
+.main-content h2 {
+    font-size: 44px;
+}
+
+.main-content p{
+    font-size: 18px;
+}
+
+.main-content .main-links{
+    margin-top: 30px;
+}
+
+.main-content {
+    margin-top: 2%;
+    width: 40%;
+    height: 80%;
+}
+
+.main-image {
+    margin-top: 2%;
+    width: 40%;
+    height: 80%;    
+    margin-left: 20%;
+    border: 2px solid pink;
 }
